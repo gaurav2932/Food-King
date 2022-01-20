@@ -1,0 +1,19 @@
+div{
+        display: flex;
+        flex-wrap: wrap;
+}
+
+div a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(250, 224, 224);
+        padding: .3rem 1rem;
+        margin: .2rem .15rem;
+        border-radius: 10rem;
+        font-size: 700;
+        
+}
+div a:hover{
+        text-decoration: underline red;
+        transition: 0.9s ease-in-out;
+}
